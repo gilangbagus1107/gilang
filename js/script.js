@@ -8,7 +8,7 @@ $('.page-scroll').on('click', function(e){
 
   // pindahkan scroll
   $('html, body').animate({
-    scrollTop: elementTujuan.offset().top -150
+    scrollTop: elementTujuan.offset().top -50
   }, 1250, 'easeInOutExpo');
 
   e.preventDefault();
